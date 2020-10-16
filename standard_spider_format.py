@@ -11,3 +11,5 @@ def get_html(url):
     except:
         source = "访问失败"
     return source
+url = r"http:\\www.baidu.com"
+get_html(url)
